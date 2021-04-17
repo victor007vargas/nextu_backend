@@ -2,7 +2,7 @@
 Repositorio proyecto evaluación Next-U  de Backend
 
 ****************************************
-Nombre del Proyecto : nextu_bsckend
+Nombre del Proyecto : nextu_backend
 ***************************************
 Paso a paso
 1. crear carpeta en el escritorio
