@@ -9,4 +9,4 @@ Paso a paso
 2. crear repositorio remoto
 3. crear arbol de directorios publicos y privados
 4. 1er commit
-5. 1er psuch
+5. 1er push
