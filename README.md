@@ -7,6 +7,6 @@ Nombre del Proyecto : nextu_backend
 Paso a paso
 1. crear carpeta en el escritorio
 2. crear repositorio remoto
-3. crear arbol de directorios publicos y privados
+3. crear arbol de directorios src :  public y server
 4. 1er commit
 5. 1er push
