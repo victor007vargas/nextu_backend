@@ -20,11 +20,42 @@
     
 
 <!--****** BODY : CUERPO  1  *********-->    
-    <div class="col s4"> <div class="cuerpo1"><h5>Busqueda Personalizada :</h5>
-    
-        <div class="botonField">
-        <div type="submit" class="btn  btn-small  " value="Ver" id="mostrarTodos">Ver Todos</div></div>
-        </div></div>
+    <div class="col s4"> 
+
+        <div class="card horizontal">
+            <div class="container center-align">
+              <div class="switch">
+                <h5>Busqueda Personalizada: </h5>
+                <label>
+                  Desactivada
+                  <input type="checkbox" id="checkPersonalizada">
+                  <span class="lever"></span>
+                  Activada
+                </label>
+              </div>
+              <!--  Busqueda personalizada -->
+              
+                  <div class="row">
+                    Ciudad:
+                    <select id="ciudad">
+                      <option value="" selected>Escoge una ciudad</option>
+                    </select>  
+                  </div>
+                  <div class="row">
+                    Tipo:
+                    <select id="tipo">
+                      <option value="" selected>Escoge un tipo</option>
+                    </select>
+                  </div>
+                  <div class="row">
+                    Precio:
+                    <input type="text" id="rangoPrecio">
+                  </div>
+              <button id="buscar" class="btn waves-effect waves-light blue" type="button">Ver Todos</button></div>
+            </div>
+
+
+    </div>
 <!--**************-->    
     
     
