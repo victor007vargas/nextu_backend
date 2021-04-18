@@ -1,0 +1,27 @@
+{
+  "name": "nextu_backend",
+  "version": "1.0.0",
+  "description": "Examne final de Next-U capitulo Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor007vargas/nextu_backend.git"
+  },
+  "author": "Victor H. Vargas L.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor007vargas/nextu_backend/issues"
+  },
+  "homepage": "https://github.com/victor007vargas/nextu_backend#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
