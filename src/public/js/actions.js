@@ -35,7 +35,7 @@ for (var i=0 ;i<=100 ;i++){
 }
 }
 
-/** □□□□□□□□□□□□□□□□□□ 2. Acceso a los datos □□□□□□□□□□□□□□□□□□**/
+/** □□□□□□□□□□□□□□□□□□ 2. Acceso a los datos del Servidor □□□□□□□□□□□□□□□□□□**/
 function accesdata () {
   
   $.ajax ({/* ***** bajar lista inmuebles *******/
@@ -65,3 +65,10 @@ accesdata ()
 
 /** □□□□□□□□□□□□□□□□□□ 3.  Logica para las busquedas □□□□□□□□□□□□□□□□□□*/
 /** **** 3.1. Creacion de Lista de Ciudades *****/
+
+  
+  
+  
+
+
+
