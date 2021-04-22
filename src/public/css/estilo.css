@@ -15,20 +15,19 @@ h5 {font-size:2.2em;}
 .prenum  {color: orange;font-weight: bold;}
 .precio{display:flex;}
 .li{list-style: none;}
-.btmosto{margin-top: 3%;margin-bottom: 3%;}
+.btmostod{margin-top: 10%;margin-bottom: 5%;}
 .cuerpo1{background-color: rgb(248, 246, 246); margin-top: 20px; align-items:center ;text-align: center;}
 .cuerpo2{background-color: rgb(238, 238, 241); margin-top: 20px;}
 .container{padding: 1em;}
-.texto1{font-size: 1.4em;margin-bottom: 10px;}
-
-
+.texto{display:flex;flex-direction: row;margin-top: -10%;}
+.textoa{color:gray;margin-right: 50%;}
+.textob{color:gray;}
+.boxprecio{display:flex;flex-direction: row;margin-bottom: 15px;}
+#rangomin{margin-right: 8%;}
+#rangomax{}
 
 
 
 /* Ocultar-Mostrar busqueda personalizada*/
 .invisible {display: none;}
 #personalizada {margin-top: 1em;}
-  
-
-  
-

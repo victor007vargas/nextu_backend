@@ -6491,7 +6491,7 @@ input[type=range] {
   background-color: transparent;
   border: none;
   outline: none;
-  width: 100%;
+  width: 50%;
   margin: 15px 0;
   padding: 0;
 }
@@ -6502,11 +6502,12 @@ input[type=range]:focus {
 
 input[type=range] + .thumb {
   position: absolute;
+  top: 200px; left: 600px;
   border: none;
   height: 0;
   width: 0;
   border-radius: 50%;
-  background-color: #26a69a;
+  background-color: yellow;
   top: 10px;
   margin-left: -6px;
   -webkit-transform-origin: 50% 50%;
@@ -6530,7 +6531,7 @@ input[type=range] + .thumb.active {
 }
 
 input[type=range] + .thumb.active .value {
-  color: #fff;
+  color: red;
   margin-left: -1px;
   margin-top: 8px;
   font-size: 10px;

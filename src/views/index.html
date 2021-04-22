@@ -8,26 +8,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/ion.rangeSlider.css">
-    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css">
-    
-    
+    <link rel="stylesheet" href="css/materialize.css">
+    <!--<link rel="stylesheet" href="css/nouislider.css">-->
+
+
+
     <title>Formulario</title>
 </head>
-<body> 
+<body>
     <div class=""><nav><div class="blue darken-3 nav-wrapper center-align"><h4>Buscador de Propiedades</h4></div></nav>     </div>
 
 <div class="row">
-    
 
-<!--****** BODY : CUERPO  1  *********-->    
-    <div class="col s4"> 
+
+<!--****** BODY : CUERPO  1  *********-->
+    <div class="col s4">
 
         <div class="card horizontal">
             <div class="container center-align">
               <div class="switch">
-                <div class="texto1">Busqueda Personalizada:</div> 
+                <div class="texto1">Busqueda Personalizada:</div>
                 <label>
                   Desactivada
                   <input type="checkbox" id="checkPersonalizada">
@@ -36,43 +36,53 @@
                 </label>
               </div>
               <!--  Busqueda personalizada -->
-              
+
               <div class="row invisible" id="personalizada">
                 <div class="row">
                   Ciudad:
                   <select id="ciudad">
-                    
-                    <option value="" selected>Escoge una ciudad</option>                    
-                    <option value="" selected>Houston</option> 
-                    <option value="" selected>Los Angeles</option> 
-                    <option value="" selected>Miami</option> 
+
+                    <option class="option" value="" selected>Escoge una ciudad</option>
+                    <option value="" selected>Houston</option>
+                    <option value="" selected>Los Angeles</option>
+                    <option value="" selected>Miami</option>
                     <option value="" selected>New York</option>
                     <option value="" selected>Orlando</option>
                     <option value="" selected>Washington</option>
 
-                    
+
                   </select>
                 </div>
                 <div class="row">
                   Tipo:
                   <select id="tipo">
                     <option value="" selected>Escoge un tipo</option>
+                    <option value="" selected>Casa</option>
+                    <option value="" selected>Casa de Campo</option>
+                    <option value="" selected>Apartamento</option>
                   </select>
                 </div>
-                <div class="row">
-                  Precio:
-                  <input type="text" id="rangoPrecio">
+                
+                <div class="row">Digite Precio:
+                 <div class="boxprecio"> 
+                  <input type="number" step="5000" min="1000" max="100000" id="rangomin">
+                  <input type="number" step="5000" min="1000" max="100000" id="rangomax">
                 </div>
+                 <div class="texto">
+                <div class="textoa"> <h6>valor min</h6></div>
+                <div class="textob"> <h6>valor max</h6></div>
+                 </div>   
+              </div>
             </div>
-                  <div class="btmosto"><button id="buscar" class="btn waves-effect waves-light blue" type="button">Ver Todos</button></div></div>              
+                  <div class="btmostod"><button id="buscartod" class="btn waves-effect waves-light blue" type="button">Ver Todos</button></div></div>
             </div>
 
 
     </div>
-<!--**************-->    
-    
-    
- 
+<!--**************-->
+
+
+
 
 
 
@@ -80,12 +90,12 @@
 
 <!--****** BODY : CUERPO  2  *********-->
     <div class="col s8"> <div class="cuerpo2">
-        <div class="panel">  
-            
+        <div class="panel">
+
  <div class="bloque1">
    <div class="cajon">
    <div class="bloque1a">
-    
+
      <div class="fotoa">
            </div>
    </div>
@@ -98,9 +108,9 @@
      <div class="precio"></div>
    </div>
  </div>
- 
+
  </div>
- 
+
  </div>
     </div></div>
 
@@ -112,18 +122,10 @@
 <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
 <script type="text/javascript" src="js/actions.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
 
-<script> $("#rangoPrecio").ionRangeSlider({
-  type: "double",
-  grid: false,
-  min: 0,
-  max: 100000,
-  from: 1000,
-  to: 20000,
-  prefix: "$"
-})</script>
+
+
 
 
 
