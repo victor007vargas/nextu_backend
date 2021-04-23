@@ -92,7 +92,7 @@ function bajardatosel(){
         valmax =  new Intl.NumberFormat("en-US", {style: "currency", currency: "USD"}).format(valrangomax);
         valmin= valmin.replace(".00","");
         valmax= valmax.replace(".00","");
-       
+        if(valrangomin==""){alert("ingrese un valor minimo")}
 
 
    

@@ -31,7 +31,8 @@ $(document).ready(function(){
         $(".btmostod").empty();
         $(".btmostod").append('<button id="buscarsel" class="btn waves-effect waves-light blue" type="button">Ver Selección</button>');
         document.getElementById('buscarsel').onclick=bajardatosel /* ***** accion del boton buscar todo *******/
-       
+        if(valrangomin==""){alert("ingrese un valor minimo")}
+        if(valrangomax==""){alert("ingrese un valor maximo")}
 
       }
       $('#personalizada').toggleClass('invisible')
